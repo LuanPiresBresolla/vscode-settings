@@ -1,0 +1,96 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "git.ignoreMissingGitWarning": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "workbench.colorTheme": "Shades of Purple",
+    "editor.fontLigatures": true,
+    // "editor.fontFamily": "Fira Code, 'Courier New', monospace",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.semanticHighlighting.enabled": false,
+    "typescript.preferences.importModuleSpecifier": "non-relative",
+  
+    "editor.rulers": [80, 120],
+    "editor.renderLineHighlight": "gutter",
+    "workbench.editor.labelFormat": "short",
+    "extensions.ignoreRecommendations": true,
+    "editor.tabSize": 2,
+    "terminal.integrated.fontSize": 13,
+    "explorer.confirmDelete": false,
+  
+    "emmet.syntaxProfiles": {
+      "javascript": "jsx",
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+    },
+    "explorer.confirmDragAndDrop": false,
+    "workbench.startupEditor": "newUntitledFile",
+    
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "typescript.updateImportsOnFileMove.enabled": "never",
+  
+    "editor.parameterHints.enabled": false,
+    "breadcrumbs.enabled": true,
+    "javascript.suggest.autoImports": true,
+    "typescript.suggest.autoImports": true,
+    "explorer.compactFolders": false,
+
+    "[prisma]": {
+      "editor.formatOnSave": true
+    },
+  
+    // padrões arbinb
+    "[javascript]": {
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+      }
+    },
+    "[javascriptreact]": {
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+      }
+    },
+    "[typescript]": {
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+      }
+    },
+    "[typescriptreact]": {
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+      }
+    },
+  
+    "material-icon-theme.folders.color": "#ef5350",
+    "material-icon-theme.folders.associations": {
+      "infra": "app",
+      "entities": "class",
+      "schemas": "class",
+      "typeorm": "database",
+      "dados": "database",
+      "mongoose": "database",
+      "repositories": "mappings",
+      "http": "container",
+      "migrations": "tools",
+      "modules": "components",
+      "implementations": "core",
+      "dtos": "typescript",
+      "fakes": "mock",
+      "MailProvider": "mail",
+      "context": "redux-reducer"
+    },
+  
+    "material-icon-theme.files.associations": {
+      "ormconfig.json": "database",
+      "tsconfig.json": "tune",
+    },
+    "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    
+    "security.workspace.trust.untrustedFiles": "open",
+    "json.schemas": [],
+    "redhat.telemetry.enabled": true
+  }
